@@ -1,2 +1,2 @@
 # unicampus
-Mobile app for university resources and community
+Mobile app for university resources and community.
