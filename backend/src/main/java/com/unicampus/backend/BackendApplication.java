@@ -1,16 +1,12 @@
-package com.unicampus.backend; // Your package
+package com.unicampus.backend; // Hardcoded package
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-// Add this import:
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+// No DataSource exclusion needed if JDBC dependency removed from pom.xml
 
-// Add the exclude annotation here:
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication
 public class BackendApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(BackendApplication.class, args);
     }
-
 }

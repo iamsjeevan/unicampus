@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.unicampus:backend >------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ backend ---
+[INFO] Deleting /Users/jeevans/Projects/Unicampus/backend/target
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (prepare-agent) @ backend ---
+[INFO] argLine set to -javaagent:/Users/jeevans/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/jeevans/Projects/Unicampus/backend/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 37 source files with javac [debug release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[3,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[19,26] package jakarta.validation does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[3,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[4,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[5,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[7,6] cannot find symbol
+  symbol:   class NotBlank
+  location: class com.unicampus.backend.dto.LoginRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[8,6] cannot find symbol
+  symbol:   class NotBlank
+  location: class com.unicampus.backend.dto.LoginRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[32,59] cannot find symbol
+  symbol:   class Valid
+  location: class com.unicampus.backend.controller.AuthController
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[38,44] cannot find symbol
+  symbol:   class Valid
+  location: class com.unicampus.backend.controller.AuthController
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[9,6] cannot find symbol
+  symbol:   class NotBlank
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[9,16] cannot find symbol
+  symbol:   class Size
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[10,6] cannot find symbol
+  symbol:   class Size
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,6] cannot find symbol
+  symbol:   class NotBlank
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,16] cannot find symbol
+  symbol:   class Email
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,23] cannot find symbol
+  symbol:   class Size
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[12,6] cannot find symbol
+  symbol:   class NotBlank
+  location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[12,16] cannot find symbol
+  symbol:   class Size
+  location: class com.unicampus.backend.dto.SignUpRequest
+[INFO] 17 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.849 s
+[INFO] Finished at: 2025-05-01T22:25:23+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[3,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[19,26] package jakarta.validation does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[3,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[4,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[5,38] package jakarta.validation.constraints does not exist
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[7,6] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class com.unicampus.backend.dto.LoginRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/LoginRequest.java:[8,6] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class com.unicampus.backend.dto.LoginRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[32,59] cannot find symbol
+[ERROR]   symbol:   class Valid
+[ERROR]   location: class com.unicampus.backend.controller.AuthController
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/controller/AuthController.java:[38,44] cannot find symbol
+[ERROR]   symbol:   class Valid
+[ERROR]   location: class com.unicampus.backend.controller.AuthController
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[9,6] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[9,16] cannot find symbol
+[ERROR]   symbol:   class Size
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[10,6] cannot find symbol
+[ERROR]   symbol:   class Size
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,6] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,16] cannot find symbol
+[ERROR]   symbol:   class Email
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[11,23] cannot find symbol
+[ERROR]   symbol:   class Size
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[12,6] cannot find symbol
+[ERROR]   symbol:   class NotBlank
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] /Users/jeevans/Projects/Unicampus/backend/src/main/java/com/unicampus/backend/dto/SignUpRequest.java:[12,16] cannot find symbol
+[ERROR]   symbol:   class Size
+[ERROR]   location: class com.unicampus.backend.dto.SignUpRequest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
