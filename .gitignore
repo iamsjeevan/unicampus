@@ -1,0 +1,47 @@
+# IDE / OS Files / Build Output / Secrets
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+*.DS_Store
+Thumbs.db
+
+# Maven
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/release.properties
+
+# Logs and Temp
+*.log
+*.tmp
+logs/
+tmp/
+
+# Local Env Files
+.env
+
+# Secrets
+# IMPORTANT: Key file inside resources IS ignored here
+backend/src/main/resources/firebase-service-account.json
+
+# Node / Frontend (basic)
+frontend/node_modules/
+frontend/build/
+frontend/.expo/
+frontend/.yarn/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Other
+coverage/
+dist/
+*.hprof
+*.pid
+*.swp
+backend/src/main/resources/firebase-service-account.json

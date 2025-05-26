@@ -1,0 +1,43 @@
+# Git stuff
+.git/
+.gitignore
+.gitattributes
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+*.DS_Store
+Thumbs.db
+
+# Local config / Secrets / Logs
+.env
+*.log
+secrets/
+secret.*
+# Exclude the source key file explicitly
+backend/src/main/resources/firebase-service-account.json
+
+# Build outputs / Dependencies (handled inside Docker build stages)
+backend/target/
+backend/build/
+backend/out/
+frontend/node_modules/
+frontend/build/
+frontend/ios/
+frontend/android/
+
+# Docs, etc. unless needed in image
+docs/
+README.md
+*.md
+
+# Other tool configs
+.devcontainer/
+infrastructure/
+.github/
+
+# Maven wrapper (not needed in final image if using multi-stage build)
+# backend/mvnw
+# backend/mvnw.cmd
+# backend/.mvn/
